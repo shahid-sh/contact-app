@@ -1,0 +1,31 @@
+<div class="container mt-1">
+    <div class="row">
+        <div class="col">
+            <h1>
+                View Contact Page
+            </h1>
+            <!-- dummy data -->
+            <p style="text-align: justify;">This is Dummy data : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eveniet saepe deleniti culpa quisquam magnam dignissimos animi, labore facere autem quidem sequi cumque ad repellendus distinctio sint. Velit, deleniti repellat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit possimus repudiandae autem dolore ipsa et sint facilis! Molestiae, doloribus expedita dolor voluptatibus aperiam nihil! Aspernatur iure explicabo deserunt nisi eveniet! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, illo! Sint quasi itaque unde, quos iste excepturi harum! Dignissimos eius ut omnis ab deserunt ea impedit unde, exercitationem earum perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero expedita quibusdam distinctio quisquam dignissimos repellendus doloremque sapiente, dicta nostrum nobis aspernatur minus eligendi possimus quaerat in harum officiis tempora sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, asperiores soluta. A quas quidem nobis. Facilis eos inventore aperiam explicabo vitae rerum architecto distinctio ducimus. Sunt, debitis incidunt? Voluptates, voluptatum.</p>  
+        </div>
+    </div>
+</div>
+<!-- contact view -->
+<div class="contrainer">
+    <div class="row align-items-center">
+        <div class="col-md-4">
+<!-- contact image -->
+<img style="margin-left: 50px;" width="200px" height="200px" class="img-thumbnail fluid" [src]="contact.photo" alt="contact image">
+        </div>
+        <div class="col-md-6">
+            <ul style="margin-left: 25px;" class="list-group">
+                <li class="list-group-item">Name : <span class="fw-bolder">{{contact.name}}</span></li>
+                <li class="list-group-item">Email : <span class="fw-bolder"> {{contact.email}} </span></li>
+                <li class="list-group-item">Mobile : <span class="fw-bolder">{{contact.mobile}} </span></li>
+                <li class="list-group-item">Comapny : <span class="fw-bolder">{{contact.company}} </span></li>
+                <li class="list-group-item">Title : <span class="fw-bolder">{{contact.title}} </span></li>
+                <li class="list-group-item">Group : <span class="fw-bolder">{{groupName}} </span></li>
+            </ul>
+                <a class="btn btn-danger ms-3 mt-3"  routerLink="">Close</a>
+        </div>
+    </div>
+</div>
